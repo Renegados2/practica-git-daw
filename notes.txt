@@ -1,0 +1,25 @@
+Restore
+Canvis locals (staged)
+abans 
+config.php (
+    DB_HOST
+)
+despres
+config.php (
+    DB_HOS
+)
+
+Revert
+Salt en el temps de versions
+commit 1 -- 1
+commit 2 -- 2
+commit 3 -- 3
+commit 4 -- 4
+
+git revert 3
+
+reverted commit 3 -- 3
+commit 1 -- 1
+commit 2 -- 2
+commit 3 -- 3
+commit 4 -- 4
