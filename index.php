@@ -9,6 +9,12 @@ function mostrarTasques($tasques) {
     }
 }
 
+function mostrarUsuari($nom) {
+    echo "=== GESTOR DE TASQUES ===</br>";
+    echo"Usuari actual: $nom</br>";
+    echo "Benvingut al sistema!</br>";
+}
+
 // Crea un array amb almenys 3 tasques
 $tasques = [
     1 => "Treure al gos",
@@ -17,7 +23,13 @@ $tasques = [
     4 => "Fer un backup",
 ];
 
-echo "=== GESTOR DE TASQUES ===</br>";
-echo "Benvingut al sistema!</br>";
-mostrarTasques($tasques)
+$userName = "Joan";
+
+mostrarUsuari($userName);
+mostrarTasques($tasques);
+
+
+
+
+
 ?>
