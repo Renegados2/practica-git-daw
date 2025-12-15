@@ -12,3 +12,7 @@ Practica de git explicant com funciona el gestor de versions
 - aplicació PHP 
 - gestió de branques 
 - sincronització amb GitHub
+
+# Version history
+- v1.0 -- Systema de tasques
+- v2.0 -- Systema de tasquest amb usuaris
