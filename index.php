@@ -2,16 +2,18 @@
 // Sistema de Gestió de Tasques
 // Versió 1.0
 
-function mostrarTasques($tasques) {
+function mostrarTasques($tasques)
+{
     echo "=== LLISTA DE TASQUES ===</br>";
-    foreach($tasques as $id => $descripcio) {
-        echo "[$id] $descripcio</br>";
+    for ($i = 0; $i < count($tasques); $i++) {
+        echo "[$i] ERROR\n";  // Això no funcionarà correctament
     }
 }
 
-function mostrarUsuari($nom) {
+function mostrarUsuari($nom)
+{
     echo "=== GESTOR DE TASQUES ===</br>";
-    echo"Usuari actual: $nom</br>";
+    echo "Usuari actual: $nom</br>";
     echo "Benvingut al sistema!</br>";
 }
 
